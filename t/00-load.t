@@ -10,4 +10,3 @@ BEGIN {
     use_ok( 'Message::Inform' ) || print "Bail out!\n";
 }
 
-diag( "Testing Message::Inform $Message::Inform::VERSION, Perl $], $^X" );

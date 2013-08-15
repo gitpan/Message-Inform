@@ -1,4 +1,7 @@
 package Message::Inform;
+{
+  $Message::Inform::VERSION = '1.132270';
+}
 
 use 5.006;
 use strict;
@@ -12,13 +15,8 @@ use Data::Dumper;
 
 Message::Inform - Intelligently distribute messages over time
 
-=head1 VERSION
-
-Version 0.1
-
 =cut
 
-our $VERSION = '0.1';
 our $config = {};
 our $instances = {};
 our $tick = 0;
